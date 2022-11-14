@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://github.com/bioornal',
+  title: 'ACERCA DE MI.',
 }
 
 const about = {
@@ -12,8 +12,8 @@ const about = {
     'Frontend - Backend',
   resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://www.linkedin.com/in/christian-speziali-b23269211/',
+    github: 'https://github.com/bioornal',
   },
 }
 
@@ -21,28 +21,20 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Projecto PI Henry Countries',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Mi primer SPA, en el cual se hace uso de una API externa y se utilizaron tecnologias como React - Redux - Node - Express / Sequelize. Fue el proyecto individual con el cual aprobé mis estudios del bootcamp de Academia Henry',
+    stack: ['React', 'Redux', 'Node', 'Express', 'Sequelize', 'PotsgreSQL'],
+    sourceCode: 'https://github.com/bioornal/PI-Countries',
+    livePreview: 'https://deploy-pi-client-three.vercel.app/',
   },
   {
-    name: 'Project 2',
+    name: 'Proyecto Qatar e-commerce',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-  },
-  {
-    name: 'Project 3',
-    description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Mi proyecto Final en Henry, con el cual me gradue. Fui parte de un grupo de 8 personas. Se trata de un sitio relacionado con la compra de productos del mundial Qatar 2022, el cual incluye carrito de compras, pasarela de pago, filtros, reviews, sistema de login, panel de admin, etc',
+    stack: ['React', 'Redux', 'Bootstrap', 'React-Hook-form', 'Auth0', 'Node', 'Express', 'Sequelize', 'PotsgreSQL'],
+    sourceCode: 'https://github.com/bioornal/Qatar-e-commerce',
+    livePreview: 'https://eccomercepf.vercel.app/',
   },
 ]
 
@@ -51,21 +43,26 @@ const skills = [
   // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
+  'Bootstrap',
   'JavaScript',
-  'TypeScript',
   'React',
   'Redux',
-  'SASS',
-  'Material UI',
+  'Node JS',
+  'PostgreSQL',
+  'Express',
+  'Sequelize',
+  'Auth0',
+  'Postman',
+  'Trello',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'Github',
+  'Photoshop',
+  'Corel Draw'
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'spezialichristian@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
