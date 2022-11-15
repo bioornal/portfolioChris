@@ -1,7 +1,7 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: 'https://github.com/bioornal',
-  title: 'ACERCA DE MI.',
+  title: 'ACERCA DE MI',
 }
 
 const about = {
@@ -10,7 +10,7 @@ const about = {
   role: 'Fullstack Developer',
   description:
     'Frontend - Backend',
-  resume: 'https://example.com',
+  resume: 'https://drive.google.com/file/d/10pjJ0epwU2v17bMka8pu9SrjMQtqPcaC/view?usp=share_link',
   social: {
     linkedin: 'https://www.linkedin.com/in/christian-speziali-b23269211/',
     github: 'https://github.com/bioornal',
